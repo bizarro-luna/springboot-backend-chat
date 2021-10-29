@@ -27,7 +27,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		registry.addEndpoint("/chat-websocket")
-		.setAllowedOrigins("http://localhost:4200/","https://luna-back-end-chat.herokuapp.com/")
+		.setAllowedOrigins("http://localhost:4200/","https://stoic-wescoff-958418.netlify.app/")
 		.withSockJS();
 	}
 
